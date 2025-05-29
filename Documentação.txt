@@ -1,0 +1,49 @@
+## Documentação do Projeto
+A proposta aborda o desenvolvimento de um software/aplicação para um cliente. As entregas serão dividas por etapas conforme a descrição abaixo:
+
+- **Proposta:** Criação de um sistema de e-commerce para uma determinada empresa
+- **Tema:** Criação de um e-commerce relacionado a farmácia
+
+## PROJETO - ECOMMERCE FARMÁCIA
+- [Equipe]
+    - Felipe Pavanatti [**<linkedin>**](https://www.linkedin.com/in/felipe-pavanatti-72729a248/)
+    - Gustavo Sanches [**<linkedin>**](https://www.linkedin.com/in/gustavo-fran%C3%A7a-12854028b/)
+    - Guilherme Rodrigues [**<linkedin>**](https://www.linkedin.com/in/guilherme-rodrigues-7bb6082b0/)
+    - Jonas Santana [**<linkedin>**](https://www.linkedin.com/in/jonas-santana-7aa94b1ab/)
+    - Kauan Henriko [**<linkedin>**](https://www.linkedin.com/in/kauan-henriko-8a8ba3256/)
+
+## Etapa 1 - Estrutura da Aplicação
+
+- Responsável: Felipe Pavanatti & Guilherme Rodrigues
+    - **Identificação dos atores:**
+    1. Usuário Visitante - Pessoa que navega pelo site, busca o produto que deseja, visualiza esses e outros produtos e as ofertas disponíveis.
+    2. Usuário Logado - Cliente que acessa sua conta, acompanha os pedidos feitos, pode adicionar coisas ao carrinho e pode comprar os produtos.
+    3. Sistema de Pagamento - Processo via cliente, onde todas da transação, dados do usuário e após a forma escolhida segue para pagamento
+    4. Sistema de Entrega - Sistema é responsável pelo cálculo do frete, preço e tempo, e também responsável para a exibição do status de entrega.
+    5.  ChatBot (IA) - Responde as perguntas comuns do usuário com respostas prontas e auxilia o usuário.
+    6. Administrador (back-office) - Gerencia o conteúdo site, cadastra e atualiza os produtos, acompanha as métricas de vendas, gerencia as respostas do ChatBot e controla as ofertas.
+    
+    - **Identificação dos requisitos funcionais:**
+    1. Busca pelo produtos com autocomplete
+    2. Login/Logout, Gerenciamento de conta/Cadastro na loja
+    3. Adição do produto ao carrinho
+    4. Visualização e edição do carrinho
+    5. Finalizar compra e escolhe forma de pagamento
+    6. Consulta status do pedido
+    7. Calculo do frete pelo CEP
+    8. Navegação por categorias e subcategorias
+    9. Exibição de promoções/ofertas
+    10. Sugestão de produtos (mais vistos/comprados/destaques)
+    11. Exibição de informações institucionais 
+    12. ChatBot para atendiment**o**
+    
+    - **Identificação dos requisitos não funcionais:**
+    1.  Responsividade - O Site deve funcionar em diferentes dispositivos. Ex. Desktops, tablets e celulares
+    2. Tempo de resposta - A página deve carregar de forma rápida assim como a busca. (< 2s)
+    3. Segurança - O site precisa transmitir segurança para o usuário. Ex. HTTPS, criptografia e autenticação em duas etapas.
+    4. Acessibilidade - Deve ser compatível com leitores de tela, contraste adequado e navegação por teclado.
+    5. Disponibilidade - Sistema com alta disponibilidade (> 99% uptime)
+    6. Escalabilidade – Suporte a picos de acesso, especialmente em datas promocionais.
+    7. Compatibilidade – Suporte aos principais navegadores (Chrome, Firefox, Safari, Edge).
+    8. Privacidade – Conformidade com LGPD.
+
